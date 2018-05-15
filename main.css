@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
+header{
+    flex:1 100%;
+    background-color: rgb(143, 143, 143);
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 5px 10 0px;
+}
+.first{
+    flex:1;
+    background-color: rgb(143, 143, 143);
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 5px 0 0px;
+}
+.second{
+    flex:100;
+    /* background-color: dimgray; */
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0 0px;
+    box-sizing: border-box;
+}
+
+.second div {
+    flex:1 300px;
+    box-sizing: border-box;
+    background-color: rgb(184, 179, 179);
+    border-radius: 20px;
+    padding:0px 30px;
+    margin: 5px 5px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    
+}
+.second div p{
+    flex: 1;
+    min-width: 200px;
+}
+
+.third{
+    flex:1 1000;
+    box-sizing: border-box;
+    background-color: rgb(145, 145, 145);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 0 0 5px;
+}
+footer{
+    flex:1 100%;
+    background-color: rgb(143, 143, 143);
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10 5px 0 0px;
+}
